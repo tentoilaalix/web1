@@ -1,0 +1,38 @@
+
+  body{
+    margin: 0;
+  }
+  h1{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin: 0px;
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/935872/pexels-photo-935872.jpeg?cs=srgb&dl=beverage-break-coffee-935872.jpg&fm=jpg');
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  ol{
+    font-style: italic;
+    font-size: 15px;
+    border-right: 1px solid lightgray;
+    width: 130px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+  }
+  #grid ol{
+    padding-left: 50px;
+  }
+  #grid #article{
+    padding-left: 5px;
+  }
+  #article{
+    text-align: center;
+  }
